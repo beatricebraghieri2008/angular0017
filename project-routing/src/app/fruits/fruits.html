@@ -1,0 +1,9 @@
+<h2 class="text-center my-4">Lista Frutta</h2>
+<div class="row g-3">
+  <div class="col-6 col-md-3" *ngFor="let f of fruits">
+    <div class="p-3 border rounded text-center bg-warning bg-opacity-10">
+      <span style="font-size: 1.5rem;">{{f.emoji}}</span> 
+      <span class="ms-2 fw-bold">{{f.name}}</span>
+    </div>
+  </div>
+</div>

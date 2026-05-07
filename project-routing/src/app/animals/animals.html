@@ -1,0 +1,8 @@
+<h2 class="text-center my-4">Lista Animali</h2>
+<div class="row g-3">
+  <div class="col-6 col-md-3" *ngFor="let a of animals">
+    <div class="p-3 border rounded text-center bg-light">
+      {{a.emoji}} {{a.name}}
+    </div>
+  </div>
+</div>
